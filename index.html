@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Application</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-box border-radius">
+        <div class="banner border-radius">
+            <div class="baner-after border-radius"></div>
+        </div>
+        
+        <form id="form" class="form-box">
+            <div class="form-elements  padding mob-flex-col">
+                <label for="name" class="font-format mob-margin-bottom">Vor Name:
+                    <input id="name" class="margin-bw-elements" type="text" placeholder="Enter Your First Name" required >
+                </label>
+
+                <label for="lastName" class="font-format ">Name:
+                    <input id="lastName"class="margin-bw-elements" type="text" placeholder="Enter Your Last Name" required >
+                </label>
+            </div>
+            <div class="form-elements  padding">
+                <label  for="occupation" class="font-format mob-margin-bottom ">Beruf:
+                    <input id="occupation" class="margin-bw-elements" type="text" placeholder="Occupation"  required>
+                </label class="font-format">
+                <label for="dateOfBirth" class="font-format  ">Geburtsdatum:
+                    <input id="dateOfBirth" class="margin-bw-elements" type="date">
+                </label>
+            </div>
+            <div class="font-format  padding">
+                <label for="address" class="font-format">Land:
+                    <input  id="address"  class="margin-bw-elements" type="text" placeholder="Enter your Country Here"  required>
+                </label>
+            </div>
+            <div class="form-elements  padding btn-align">
+                <button class="button1" type="submit" value="Submit">Submit</button>
+            </div>
+        </form>
+        <div class="table-box">
+            <div class="table-header table-data-grid padding-two-sides">
+                <p class="">Vor Name</p>
+                <p class="">Name</p>
+                <p class="">Beruf</p>
+                <p class="">G.Datum</p>
+                <p class="">Land</p>
+            </div>
+            <!--
+            <div class="table-data-grid oddEven-data padding-two-sides">
+                <p class="">John</p>
+                <p class="">Smith</p>
+                <p class="">Teacher</p>
+                <p class="">21.08.1985</p>
+                <p class="">Münich,Germany</p>
+            </div>
+            <div class=" table-data-grid oddEven-data padding-two-sides">
+                <p class="">Mark</p>
+                <p class="">Butcher</p>
+                <p class="">Painter</p>
+                <p class="">09.05.1990</p>
+                <p class="">Lisbon,Portugal</p>
+            </div>
+            -->
+           
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
