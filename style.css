@@ -68,7 +68,8 @@ input[type=text],[type=password],[type=email],[type=date], select, textarea {
     background-color: rgb(247 247 247);
     font-size: 18px;
     color: rgb(62 84 73);
-    outline:rgb(16 123 187); 
+    outline:rgb(16 123 187);
+    padding: 6px; 
 }
 ::placeholder {
     color: rgb(195, 201, 206); 
