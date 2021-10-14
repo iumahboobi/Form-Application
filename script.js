@@ -61,11 +61,8 @@ var printForm = (function (UICtrl) {
   var ctrlAddItem = function (event) {
     event.preventDefault();
     // To Do List
-
     // 1. Get the Form input Data
-
     var input = UICtrl.getInput();
-
     // 2 Display the Item on the UI
     //2.1 Create div Element
     var table = document.querySelector(".table-box");
@@ -78,9 +75,7 @@ var printForm = (function (UICtrl) {
       "table-data-grid",
       "padding-two-sides"
     );
-
     // 2.2 Loop through object values
-
     Object.values(input).forEach((inputValue) => {
       var pElement = document.createElement("p");
       pElement.innerHTML = inputValue;
@@ -106,7 +101,7 @@ var printForm = (function (UICtrl) {
     var okBtn = document.createElement("button");
     var canBtn = document.createElement("button");
 
-    dboxText.innerHTML = "Are you sure do you want to delete the data?";
+    dboxText.innerHTML = "Sind Sie sicher Ihre Daten zu löschen?";
     dboxText.classList.add("font-16");
     dboxStat.append(dboxText);
     winBox.append(dboxStat);
