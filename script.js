@@ -113,11 +113,11 @@ var printForm = (function (UICtrl) {
       // Remove parentRef from the DOM
       parentRef.remove();
     });
-    canBtn.innerHTML = "Cancel";
+    canBtn.innerHTML = "Abbrechnen";
     canBtn.addEventListener("click", function () {
       winBox.classList.remove("show");
     });
-    okBtn.innerHTML = "Yes";
+    okBtn.innerHTML = "Ja";
     btnsBox.append(okBtn);
     btnsBox.append(canBtn);
 
